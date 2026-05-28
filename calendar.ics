@@ -1,0 +1,9 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Fleury Studio//QEST Apprenticeship Schedule//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:QEST Apprenticeship — Cass Power
+X-WR-CALDESC:Cass Power's QEST apprenticeship schedule\, 2026–2028.
+X-WR-TIMEZONE:Europe/London
+END:VCALENDAR

@@ -1,0 +1,586 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>QEST Apprenticeship — Cass Power</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root {
+  --ink: #1d1d1f;
+  --muted: #6a6e74;
+  --rule: #e6e6e8;
+  --rule-soft: #f0f0f2;
+  --bg: #f7f7f8;
+  --panel: #ffffff;
+  --accent: #1d1d1f;
+  --link: #2a59b8;
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 2.5rem 1.5rem 5rem;
+  color: var(--ink);
+  font: 16px/1.55 'Inter', -apple-system, system-ui, sans-serif;
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+  -webkit-font-smoothing: antialiased;
+}
+.masthead {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--rule);
+}
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+h1 {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin: 2.75rem 0 0.85rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+section:first-of-type h2 { padding-top: 0; border-top: none; margin-top: 1.5rem; }
+h3 {
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.5rem;
+}
+p { margin: 0 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+.intro {
+  font-size: 1.02rem;
+  color: var(--ink);
+  margin-bottom: 1.75rem;
+}
+.muted { color: var(--muted); }
+.small { font-size: 0.85rem; }
+.calendar-link-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: flex-start;
+  margin: 0.5rem 0 2rem;
+}
+.calendar-link {
+  display: inline-block;
+  padding: 0.55rem 0.95rem;
+  background: var(--ink);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.94rem;
+}
+.calendar-link:hover { background: #000; text-decoration: none; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.92rem;
+}
+th, td {
+  text-align: left;
+  padding: 0.55rem 0.7rem;
+  vertical-align: top;
+}
+thead th {
+  border-bottom: 1px solid var(--rule);
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+tbody tr { border-bottom: 1px solid var(--rule-soft); }
+tbody tr:last-child { border-bottom: none; }
+.upcoming td:first-child { white-space: nowrap; color: var(--muted); font-variant-numeric: tabular-nums; }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  margin: 0.5rem 0 1.5rem;
+}
+.panel dl { margin: 0; display: grid; grid-template-columns: minmax(140px, max-content) 1fr; column-gap: 1.5rem; row-gap: 0.75rem; }
+.panel dt { font-weight: 600; color: var(--ink); }
+.panel dd { margin: 0; color: var(--ink); }
+details { margin: 1rem 0 1.5rem; }
+details summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--link);
+  padding: 0.4rem 0;
+}
+.back {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+@media (max-width: 540px) {
+  body { padding: 1.75rem 1.1rem 4rem; }
+  .panel dl { grid-template-columns: 1fr; row-gap: 0.25rem; }
+  .panel dt { color: var(--muted); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  table { font-size: 0.88rem; }
+  th, td { padding: 0.45rem 0.5rem; }
+}
+
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="kicker">Equivalent Experience · QEST Apprenticeship</div>
+  <h1>Cass Power — apprenticeship programme</h1>
+</header>
+
+<p class="intro">The live programme reference for Cass Power's QEST apprenticeship at
+Equivalent Experience CIC, July 2026 to June 2028. The Upcoming days table
+below shows scheduled training days at Fleury Studio, Tate, and the second
+placement once arranged. Subscribe to the calendar to have these dates
+appear in your own calendar app and update automatically as the schedule
+shifts. Maintained by Simon at Equivalent Experience CIC.</p>
+
+<p class="calendar-link-wrap">
+  <a class="calendar-link" href="calendar.ics">Add the programme to your calendar →</a>
+  <span class="muted small">Paste this link into Google Calendar (Other calendars → + → From URL) or Apple Calendar (File → New Calendar Subscription).</span>
+</p>
+
+<section>
+  <h2>Upcoming days</h2>
+  <p class='muted'>No confirmed dates yet. Days will appear here as soon as the first ones are pencilled in.</p>
+</section>
+
+<section>
+  <h2>Where you'll be working</h2>
+  <div class="panel">
+  <dl>
+    <dt>Programme</dt>
+    <dd>1 July 2026 – 30 June 2028, in line with QEST's scheduling. Around ten days a month, with three programme closures each year (August, the working week after Easter, and Christmas Eve through to the first working Monday in January). Roughly 100 working days a year, 200 across the programme, and 1,400 hours.</dd>
+    <dt>Fleury Studio</dt>
+    <dd>Four days a month with Simon Fleury, North London. The continuous spine of supervision.</dd>
+    <dt>Tate</dt>
+    <dd>Around six days a month, in two-day blocks. Supervised by Jacqueline Moon, working alongside Ioannis.</dd>
+    <dt>Second placement</dt>
+    <dd>Under discussion. An archive, library, or other conservation studio will be added to the rotation; where it runs in a given month it substitutes for one Tate block. Until that's settled, Tate absorbs the additional days.</dd>
+    <dt>Reports</dt>
+    <dd>A six-monthly technical report at the close of each period (around Dec 2026, Jun 2027, Dec 2027, and Jun 2028), jointly produced by Fleury Studio and Tate, with Cass's reflection forming part of the record.</dd>
+  </dl>
+</div>
+</section>
+
+<section>
+  <h2>Monthly map</h2>
+  <p class="muted small">How a typical month is shaped, and the period-by-period overview of the programme.</p>
+  <h1 id="qest-apprenticeship-monthly-map">QEST Apprenticeship — Monthly Map</h1>
+<p>A working template for the 10-day month, sized to drop into the studio calendar. The programme runs <strong>1 July 2026 – 30 June 2028</strong>, in line with QEST's scheduling. Tate take the additional days at present, with a second placement (an archive, library, or other conservation studio) under discussion. Specific weekdays will firm up as Jacqui at Tate confirms her preferences, and as the second placement is settled.</p>
+<h2 id="the-arithmetic">The arithmetic</h2>
+<table>
+<thead>
+<tr>
+<th>Placement</th>
+<th>Days/month</th>
+<th>Days/year</th>
+<th>Days over two years</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fleury Studio (with Simon)</td>
+<td>4</td>
+<td>40</td>
+<td>80</td>
+</tr>
+<tr>
+<td>Tate (and/or a second placement)</td>
+<td>6</td>
+<td>60</td>
+<td>120</td>
+</tr>
+<tr>
+<td><strong>Total</strong></td>
+<td><strong>10</strong></td>
+<td><strong>100</strong></td>
+<td><strong>200</strong></td>
+</tr>
+</tbody>
+</table>
+<p>Working pattern is roughly ten days a month, with breaks built in (see Closures below). Seven-hour day, so 700 hours a year and 1,400 hours across the programme.</p>
+<h2 id="closures">Closures</h2>
+<p>Three programme closures each year, mirroring conventional studio and institutional rhythm.</p>
+<table>
+<thead>
+<tr>
+<th>Closure</th>
+<th>Approximate dates</th>
+<th>Working days</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>August</td>
+<td>August (full month)</td>
+<td>~20</td>
+</tr>
+<tr>
+<td>Christmas / New Year</td>
+<td>24 December – first working Monday in January</td>
+<td>~5</td>
+</tr>
+<tr>
+<td>Easter</td>
+<td>Working week after Easter (Mon–Fri)</td>
+<td>~5</td>
+</tr>
+</tbody>
+</table>
+<p>Specifically:</p>
+<ul>
+<li><strong>August 2026:</strong> full month closure (the first full closure period, three weeks after programme start).</li>
+<li><strong>Christmas 2026 → New Year 2027:</strong> Thu 24 Dec 2026 – Mon 4 Jan 2027.</li>
+<li><strong>Easter 2027:</strong> Mon 29 Mar – Fri 2 Apr 2027 (the week after Easter; Good Friday is 26 Mar).</li>
+<li><strong>August 2027:</strong> full month closure.</li>
+<li><strong>Christmas 2027 → New Year 2028:</strong> Fri 24 Dec 2027 – Tue 4 Jan 2028.</li>
+<li><strong>Easter 2028:</strong> Mon 17 Apr – Fri 21 Apr 2028 (the week after Easter; Good Friday is 14 Apr).</li>
+</ul>
+<p>Closures align with Tate's quieter periods and with conventional UK studio practice. They also give Cass real rest at the points in the year people naturally want it.</p>
+<h2 id="reporting">Reporting</h2>
+<p>Each six-month period concludes with a <strong>technical report jointly produced by Fleury Studio and Tate</strong> — drafted by Simon with contributions and sign-off from Jacqueline Moon, and Cass's own reflection forming part of the record. Four reports across the programme:</p>
+<ul>
+<li>End of Period 1 — around December 2026</li>
+<li>End of Period 2 — around June 2027</li>
+<li>End of Period 3 — around December 2027</li>
+<li>Final report and competency sign-off — around June 2028</li>
+</ul>
+<p>Where a second placement is running, the relevant supervisor contributes a short feedback note at each assessment point. QEST receives the reports as part of the funding record.</p>
+<h2 id="default-monthly-shape">Default monthly shape</h2>
+<p>One steady studio day each week with Simon, plus three weeks of two consecutive external days at Tate (or, where it fits, a second placement). The fourth week is studio-only. This holds Jacqui's preference for consecutive blocks, keeps a continuous thread of supervision with Simon throughout the month, and gives Cass a predictable rhythm.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Week 1</strong></td>
+<td>Studio</td>
+<td>Tate</td>
+<td>Tate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Week 2</strong></td>
+<td>Studio</td>
+<td>Tate</td>
+<td>Tate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Week 3</strong></td>
+<td>Studio</td>
+<td>Tate</td>
+<td>Tate</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Week 4</strong></td>
+<td>Studio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>The specific weekdays are illustrative. The studio day can move; Tate's two-day block can sit anywhere across the week. Friday is left clear throughout. Where a second placement runs, it substitutes into one of the Tate weeks.</p>
+<p>In a five-week month, the extra week absorbs whatever moved (illness, institutional dates, the August buffer either side). In months containing a closure week (December, January, April), one of the four weeks is the closure rather than a working week.</p>
+<h2 id="worked-example-july-2026">Worked example: July 2026</h2>
+<p>The programme opens on <strong>Wednesday 1 July 2026</strong>. The first month is therefore short and front-loaded into the kickoff, with the rhythm establishing properly from September after the August closure.</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>Mon</th>
+<th>Tue</th>
+<th>Wed</th>
+<th>Thu</th>
+<th>Fri</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Wk 1 (1–3)</td>
+<td></td>
+<td></td>
+<td><strong>Kickoff Day</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Wk 2 (6–10)</td>
+<td>Studio</td>
+<td>Tate (TBC)</td>
+<td>Tate (TBC)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Wk 3 (13–17)</td>
+<td>Studio</td>
+<td>Tate (TBC)</td>
+<td>Tate (TBC)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Wk 4 (20–24)</td>
+<td>Studio</td>
+<td>Tate or 2nd</td>
+<td>Tate or 2nd</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Wk 5 (27–31)</td>
+<td>Studio</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>Tate dates will firm up once Jacqui sends them. The Tate placement may begin during July or after the August closure; the Tate days in Weeks 2–3 shift accordingly, with Studio days filling in.</p>
+<details>
+  <summary>Two-year overview — show the full period-by-period table</summary>
+  <h2 id="two-year-overview">Two-year overview</h2>
+  
+<h3 id="year-1-july-2026-to-june-2027">Year 1 — July 2026 to June 2027</h3>
+<table>
+<thead>
+<tr>
+<th>Month</th>
+<th>Status</th>
+<th>Period</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jul 2026</td>
+<td>Working</td>
+<td>P1 Identification</td>
+<td>Programme start Wed 1 July. Kickoff month.</td>
+</tr>
+<tr>
+<td>Aug 2026</td>
+<td><strong>Closed</strong></td>
+<td></td>
+<td>August closure</td>
+</tr>
+<tr>
+<td>Sep 2026</td>
+<td>Working</td>
+<td>P1</td>
+<td>Rhythm establishes</td>
+</tr>
+<tr>
+<td>Oct 2026</td>
+<td>Working</td>
+<td>P1</td>
+<td>First substantive Tate report (mid-Oct)</td>
+</tr>
+<tr>
+<td>Nov 2026</td>
+<td>Working</td>
+<td>P1</td>
+<td>First Tate/Studio joint progress note (informal)</td>
+</tr>
+<tr>
+<td>Dec 2026</td>
+<td>Working (part)</td>
+<td>P1</td>
+<td>First six-monthly technical report. Christmas closure from 24 Dec</td>
+</tr>
+<tr>
+<td>Jan 2027</td>
+<td>Working (part)</td>
+<td>P2 Mounting &amp; Display</td>
+<td>Re-open Mon 4 Jan</td>
+</tr>
+<tr>
+<td>Feb 2027</td>
+<td>Working</td>
+<td>P2</td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 2027</td>
+<td>Working</td>
+<td>P2</td>
+<td></td>
+</tr>
+<tr>
+<td>Apr 2027</td>
+<td>Working (part)</td>
+<td>P2</td>
+<td>Easter closure Mon 29 Mar – Fri 2 Apr</td>
+</tr>
+<tr>
+<td>May 2027</td>
+<td>Working</td>
+<td>P2</td>
+<td></td>
+</tr>
+<tr>
+<td>Jun 2027</td>
+<td>Working</td>
+<td>P2</td>
+<td>Second six-monthly technical report</td>
+</tr>
+</tbody>
+</table>
+<h3 id="year-2-july-2027-to-june-2028">Year 2 — July 2027 to June 2028</h3>
+<table>
+<thead>
+<tr>
+<th>Month</th>
+<th>Status</th>
+<th>Period</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Jul 2027</td>
+<td>Working</td>
+<td>P3 Documentation &amp; Digitisation</td>
+<td></td>
+</tr>
+<tr>
+<td>Aug 2027</td>
+<td><strong>Closed</strong></td>
+<td></td>
+<td>August closure</td>
+</tr>
+<tr>
+<td>Sep 2027</td>
+<td>Working</td>
+<td>P3</td>
+<td></td>
+</tr>
+<tr>
+<td>Oct 2027</td>
+<td>Working</td>
+<td>P3</td>
+<td></td>
+</tr>
+<tr>
+<td>Nov 2027</td>
+<td>Working</td>
+<td>P3</td>
+<td></td>
+</tr>
+<tr>
+<td>Dec 2027</td>
+<td>Working (part)</td>
+<td>P3</td>
+<td>Third six-monthly technical report. Christmas closure from 24 Dec</td>
+</tr>
+<tr>
+<td>Jan 2028</td>
+<td>Working (part)</td>
+<td>P4 Object Treatments</td>
+<td>Re-open Tue 4 Jan</td>
+</tr>
+<tr>
+<td>Feb 2028</td>
+<td>Working</td>
+<td>P4</td>
+<td></td>
+</tr>
+<tr>
+<td>Mar 2028</td>
+<td>Working</td>
+<td>P4</td>
+<td></td>
+</tr>
+<tr>
+<td>Apr 2028</td>
+<td>Working (part)</td>
+<td>P4</td>
+<td>Easter closure Mon 17 – Fri 21 Apr</td>
+</tr>
+<tr>
+<td>May 2028</td>
+<td>Working</td>
+<td>P4</td>
+<td></td>
+</tr>
+<tr>
+<td>Jun 2028</td>
+<td>Working</td>
+<td>P4</td>
+<td>Final report; competency sign-off (Simon and Jacqui, plus the second-placement supervisor if running)</td>
+</tr>
+</tbody>
+</table>
+
+</details>
+<h2 id="calendar-integration">Calendar integration</h2>
+<ol>
+<li>Block a recurring weekly Studio day for Cass across the year (skipping August and closure weeks).</li>
+<li>Block three weekly two-day Tate slots per month as placeholders ("Cass — Tate"). Once Jacqui sends specific dates, refine each into firm weekdays.</li>
+<li>Where a second placement is confirmed for a given month, retitle one of the Tate two-day slots accordingly.</li>
+<li>Create one day note per confirmed day in <code>Apprenticeship Schedule/</code> using the filename pattern <code>YYYY-MM-DD — Cass — &lt;Location&gt;.md</code> (from QEST Day Stub). The daily briefing will then pick them up automatically.</li>
+<li>Block the closure periods on the calendar (August, Christmas/NY, Easter week) so Cass and the institutions see them.</li>
+</ol>
+</section>
+
+<section>
+  <h2>Training plan</h2>
+  <p>The full training plan covers what you'll be learning across each six-month period, how it'll be developed, and how it'll be assessed.</p>
+  <p><a class="calendar-link" href="training-plan.html">Read the full training plan →</a></p>
+</section>
+
+<footer>
+  Questions or anything that needs changing — email Simon at <a href="mailto:sfleury@simonfleury.studio">sfleury@simonfleury.studio</a>.<br>
+  Page last refreshed 28 May 2026.
+</footer>
+
+</body>
+</html>

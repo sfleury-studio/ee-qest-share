@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Training plan — QEST Apprenticeship, Cass Power</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+
+:root {
+  --ink: #1d1d1f;
+  --muted: #6a6e74;
+  --rule: #e6e6e8;
+  --rule-soft: #f0f0f2;
+  --bg: #f7f7f8;
+  --panel: #ffffff;
+  --accent: #1d1d1f;
+  --link: #2a59b8;
+}
+* { box-sizing: border-box; }
+html { background: var(--bg); }
+body {
+  margin: 0 auto;
+  max-width: 720px;
+  padding: 2.5rem 1.5rem 5rem;
+  color: var(--ink);
+  font: 16px/1.55 'Inter', -apple-system, system-ui, sans-serif;
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+  -webkit-font-smoothing: antialiased;
+}
+.masthead {
+  margin-bottom: 1.75rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid var(--rule);
+}
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.72rem;
+  color: var(--muted);
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+h1 {
+  font-size: 1.7rem;
+  line-height: 1.2;
+  font-weight: 600;
+  letter-spacing: -0.015em;
+  margin: 0;
+}
+h2 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  letter-spacing: -0.005em;
+  margin: 2.75rem 0 0.85rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+section:first-of-type h2 { padding-top: 0; border-top: none; margin-top: 1.5rem; }
+h3 {
+  font-size: 0.98rem;
+  font-weight: 600;
+  margin: 1.75rem 0 0.5rem;
+}
+p { margin: 0 0 1rem; }
+a { color: var(--link); text-decoration: underline; text-underline-offset: 2px; }
+a:hover { text-decoration-thickness: 2px; }
+.intro {
+  font-size: 1.02rem;
+  color: var(--ink);
+  margin-bottom: 1.75rem;
+}
+.muted { color: var(--muted); }
+.small { font-size: 0.85rem; }
+.calendar-link-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: flex-start;
+  margin: 0.5rem 0 2rem;
+}
+.calendar-link {
+  display: inline-block;
+  padding: 0.55rem 0.95rem;
+  background: var(--ink);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 0.94rem;
+}
+.calendar-link:hover { background: #000; text-decoration: none; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.5rem;
+  font-size: 0.92rem;
+}
+th, td {
+  text-align: left;
+  padding: 0.55rem 0.7rem;
+  vertical-align: top;
+}
+thead th {
+  border-bottom: 1px solid var(--rule);
+  color: var(--muted);
+  font-weight: 500;
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+tbody tr { border-bottom: 1px solid var(--rule-soft); }
+tbody tr:last-child { border-bottom: none; }
+.upcoming td:first-child { white-space: nowrap; color: var(--muted); font-variant-numeric: tabular-nums; }
+.panel {
+  background: var(--panel);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+  padding: 1.2rem 1.4rem;
+  margin: 0.5rem 0 1.5rem;
+}
+.panel dl { margin: 0; display: grid; grid-template-columns: minmax(140px, max-content) 1fr; column-gap: 1.5rem; row-gap: 0.75rem; }
+.panel dt { font-weight: 600; color: var(--ink); }
+.panel dd { margin: 0; color: var(--ink); }
+details { margin: 1rem 0 1.5rem; }
+details summary {
+  cursor: pointer;
+  font-weight: 500;
+  color: var(--link);
+  padding: 0.4rem 0;
+}
+.back {
+  font-size: 0.9rem;
+  margin-bottom: 1.5rem;
+}
+footer {
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+@media (max-width: 540px) {
+  body { padding: 1.75rem 1.1rem 4rem; }
+  .panel dl { grid-template-columns: 1fr; row-gap: 0.25rem; }
+  .panel dt { color: var(--muted); font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.04em; }
+  table { font-size: 0.88rem; }
+  th, td { padding: 0.45rem 0.5rem; }
+}
+
+</style>
+</head>
+<body>
+
+<p class="back"><a href="index.html">← Back to the programme page</a></p>
+
+<h1 id="qest-apprenticeship-training-plan-cass-power">QEST Apprenticeship Training Plan — Cass Power</h1>
+<p><strong>Draft v3 — 27 May 2026</strong></p>
+<p><em>Working draft in markdown. Substance is settled enough to share with Cass, with Emma at QEST, and with Jacqui Moon at Tate; final content will be transferred into QEST's Word template (<code>Apprenticeship.Training plan. Jun 25.docx</code>) for submission. This version replaces v2 (15 May 2026); the changes are: a 1 July 2026 start aligned with QEST's scheduling, a clearer closure structure (Easter and Christmas/NY added alongside August), six-monthly reports now jointly produced by Fleury Studio and Tate, open framing around the second institutional placement, and adjusted hour totals to reflect the closures.</em></p>
+<hr />
+<h2 id="apprenticeship-details">Apprenticeship details</h2>
+<ul>
+<li><strong>Apprentice name:</strong> Cass Power</li>
+<li><strong>Employer name:</strong> Simon Fleury</li>
+<li><strong>Practice name:</strong> Fleury Studio</li>
+</ul>
+<h2 id="structure-summary">Structure summary</h2>
+<p>Two-year photographic conservation apprenticeship, <strong>1 July 2026 – 30 June 2028</strong>, operating at ten days per month with three programme closures each year (August, Easter week, and Christmas to the first working Monday in January). Start date aligns with QEST's scheduling. Total: approximately 100 working days a year, 200 across the programme, and 1,400 hours.</p>
+<p><strong>Monthly placement pattern:</strong></p>
+<ul>
+<li>4 days — Simon Fleury Studio (lead supervision, coordination, bespoke private-practice work)</li>
+<li>6 days — institutional placements:</li>
+<li>Tate Conservation (museum and exhibition context — supervised by Jacqueline Moon, working alongside Ioannis)</li>
+<li>A second institutional placement providing an archive or library context. This is currently under discussion; the training content below is designed to hold up across the configurations being considered. If no second placement is confirmed, the full six external days sit with Tate.</li>
+</ul>
+<p><strong>Scheduling.</strong> Tate has indicated that consecutive day blocks work best for their team rather than days scattered across the month. The monthly rotation will be set up to accommodate this and will be confirmed with all parties before the apprenticeship begins.</p>
+<p><strong>Closures.</strong> Three closures each year give Cass real breathing room and align with conventional UK studio practice:
+- <strong>August</strong> (full month closure)
+- <strong>Christmas / New Year</strong> — from Christmas Eve to the first working Monday in January
+- <strong>Easter</strong> — the working week after Easter (Mon–Fri)</p>
+<p><strong>Training methods used throughout:</strong> one-to-one instruction (Simon), individual supervision at each institution, job shadowing, dedicated practice time, mentoring, and six-monthly feedback sessions with written assessment jointly produced by Fleury Studio and Tate.</p>
+<hr />
+<h2 id="from-cass">From Cass</h2>
+<p>Jacqueline Moon at Tate asked for Cass's own sense of what they want to take from the apprenticeship, and the paragraph below is included to inform partners' planning:</p>
+<p>"Over the course of the apprenticeship with my placement at Tate, I'm hoping to build a strong and well-rounded foundation in photographic conservation, continuing from what I began during the traineeship where I had a fantastic experience working with Ioannis. One of the things that really appeals to me about the two-year structure is the opportunity to see projects out over time, and to better understand how conservation decisions impact an object at each stage, from initial assessment through to treatment, storage, and display. I'd like to grow in confidence with condition reporting, identification, documentation, and contributing to treatments where possible, while also continuing practical skills in mounting, rehousing, and preparing works for display. I'm especially interested in how these processes work within institutional settings like Tate, and how different approaches to care and access are balanced."</p>
+<hr />
+<h2 id="year-1">Year 1</h2>
+<h3 id="period-1-06-months-july-december-2026">Period 1 — 0–6 months (July – December 2026)</h3>
+<p><strong>Objective: Identification</strong></p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>How this will be developed</th>
+<th>Lead context</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Skill 1</strong> — Technical report on a photographic process (early twentieth century; colour and instant photography)</td>
+<td>One-to-one instruction with Simon on process history, materials, and deterioration characteristics; structured sample examination; a written six-monthly technical report submitted at the end of the period</td>
+<td>Studio (lead), drawing on Tate and the second placement's reference holdings</td>
+</tr>
+<tr>
+<td><strong>Skill 2</strong> — Initiating a series of crib sheets of photographic processes (building towards twelve by the end of the apprenticeship)</td>
+<td>Research and drafting of crib sheets covering early twentieth-century, colour, and instant processes; supervised formatting and iterative feedback</td>
+<td>Studio (lead), with examination of process examples at Tate and the second placement</td>
+</tr>
+<tr>
+<td><strong>Skill 3</strong> — Visual examination and comparative identification</td>
+<td>Structured viewing sessions at Tate and the second placement using their reference collections; introduction to raking light, magnification, and UV examination; comparative analysis exercises back in the studio</td>
+<td>Tate and second placement (examination) + Studio (follow-up)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tate's role in this period: we'd welcome Jacqui and Ioannis's thoughts on how Cass's time at Tate could best support the identification focus. The shape is open and we are happy to align with existing projects or working patterns at Tate.</em></p>
+<p><strong>Assessment:</strong></p>
+<ul>
+<li>First six-monthly technical report completed, jointly authored by Fleury Studio and Tate</li>
+<li>First three to four crib sheets drafted and filed</li>
+<li>Short written reflection from Cass on examination exercises, with a brief sign-off from Tate and (if confirmed) the second placement host</li>
+</ul>
+<hr />
+<h3 id="period-2-612-months-january-june-2027">Period 2 — 6–12 months (January – June 2027)</h3>
+<p><strong>Objective: Object mounting and display</strong></p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>How this will be developed</th>
+<th>Lead context</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Skill 1</strong> — Float mounting of photographs</td>
+<td>One-to-one instruction on when float mounting is appropriate; hands-on float mounting of objects of different sizes and weights, incorporating adhesives and hinging</td>
+<td>Studio (lead), with job-shadowing on exhibition preparation at Tate where this aligns with live projects</td>
+</tr>
+<tr>
+<td><strong>Skill 2</strong> — Corners and Japanese hinging</td>
+<td>Instruction on Japanese papers and materials; understanding the uses of corners; making corners and hinges for a range of formats</td>
+<td>Studio (lead)</td>
+</tr>
+<tr>
+<td><strong>Skill 3</strong> — Adhesives</td>
+<td>Survey of adhesives used in conservation and specifically in photography conservation; preparing adhesives from scratch; using adhesives in supervised treatments</td>
+<td>Studio (lead)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tate's role in this period: mounting and display feels like an area where there may be useful overlap with Tate's exhibition and collection work — for example the</em> Light and Magic <em>exhibition Jacqui mentioned — but we are very open to Jacqui's sense of where Cass could contribute most usefully, whether through a specific project or more generally.</em></p>
+<p><strong>Assessment:</strong></p>
+<ul>
+<li>Second six-monthly technical report completed, jointly authored by Fleury Studio and Tate</li>
+<li>Portfolio of supervised mounting work (at least three mounted objects documented with before/after images and notes)</li>
+<li>Evidence of adhesive preparation and application, with Simon's sign-off</li>
+</ul>
+<hr />
+<h2 id="year-2">Year 2</h2>
+<h3 id="period-3-1218-months-july-december-2027">Period 3 — 12–18 months (July – December 2027)</h3>
+<p><strong>Objective: Documentation and digitisation</strong></p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>How this will be developed</th>
+<th>Lead context</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Skill 1</strong> — Object condition reports and treatment assessments</td>
+<td>Instruction on the structure and function of condition reports; required documentation standards; drafting reports on objects encountered across all three contexts</td>
+<td>Cross-institutional (Studio, Tate, and second placement)</td>
+</tr>
+<tr>
+<td><strong>Skill 2</strong> — Object photography and image management</td>
+<td>Understanding the role of digitisation in preservation; photographing objects before and after for condition reports and treatment assessments; tools and workflows for effective digitisation of different formats</td>
+<td>Second placement (lead — large-scale archive or library digitisation workflows) + Studio</td>
+</tr>
+<tr>
+<td><strong>Skill 3</strong> — Collection management systems and institutional documentation standards</td>
+<td>Comparing how an archive or library, a museum (Tate), and a private practice (Studio) document photographic collections; introduction to relevant databases and cataloguing conventions; drafting reports appropriate to each context's audience</td>
+<td>Tate, Studio, and second placement (comparative)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tate's role in this period: a condition report produced in a museum context will form part of the assessed work; beyond that, we'd be keen to hear what shape Cass's time at Tate might take during this period.</em></p>
+<p><strong>Assessment:</strong></p>
+<ul>
+<li>Third six-monthly technical report completed, jointly authored by Fleury Studio and Tate</li>
+<li>At least two full condition reports completed (one archive or library context, one museum or studio context)</li>
+<li>Digital imaging portfolio demonstrating before/after documentation of treated objects</li>
+</ul>
+<hr />
+<h3 id="period-4-1824-months-january-june-2028">Period 4 — 18–24 months (January – June 2028)</h3>
+<p><strong>Objective: Object treatments</strong></p>
+<table>
+<thead>
+<tr>
+<th>Skill</th>
+<th>How this will be developed</th>
+<th>Lead context</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Skill 1</strong> — Wet treatments</td>
+<td>Spot testing on photographs; supervised delivery of different types of wet treatments used in photographic conservation</td>
+<td>Studio (lead)</td>
+</tr>
+<tr>
+<td><strong>Skill 2</strong> — Surfaces and cleaning</td>
+<td>Brushes and surface cleaning techniques; understanding different photographic surfaces (drawing on identification knowledge and spot testing); washing photographs and cleaning glass plate photographs</td>
+<td>Studio (lead), with potential glass plate work at the second placement</td>
+</tr>
+<tr>
+<td><strong>Skill 3</strong> — Humidification and pressing</td>
+<td>Types of photographs that may require humidification and pressing; constructing humidification tents; pressing photographs safely</td>
+<td>Studio (lead)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Tate's role in this period: the treatment work will be led primarily from the studio, but we'd welcome Jacqui's thoughts on where Cass might contribute at Tate during this time. Jacqui's written contribution to Cass's final competency sign-off is a formal part of the programme's close.</em></p>
+<p><strong>Assessment:</strong></p>
+<ul>
+<li>Final six-monthly technical report completed, jointly authored by Fleury Studio and Tate</li>
+<li>Treatment portfolio covering at least one wet treatment, one surface cleaning, and one humidification or pressing job, each fully documented</li>
+<li>Final competency sign-off by Simon, with written contributions from Jacqueline Moon (Tate) and the second placement supervisor (if the placement runs)</li>
+<li>Completed set of twelve crib sheets submitted</li>
+</ul>
+<hr />
+<h2 id="closures-and-time-off">Closures and time off</h2>
+<p>Three programme closures each year, totalling roughly thirty working days, give Cass a properly considered pattern of breaks and align with conventional UK studio and institutional practice.</p>
+<table>
+<thead>
+<tr>
+<th>Closure</th>
+<th>Dates</th>
+<th>Working days</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>August 2026</td>
+<td>Full month</td>
+<td>~20</td>
+</tr>
+<tr>
+<td>Christmas 2026 / NY 2027</td>
+<td>Thu 24 Dec 2026 – Mon 4 Jan 2027</td>
+<td>~5</td>
+</tr>
+<tr>
+<td>Easter 2027</td>
+<td>Mon 29 Mar – Fri 2 Apr 2027</td>
+<td>5</td>
+</tr>
+<tr>
+<td>August 2027</td>
+<td>Full month</td>
+<td>~20</td>
+</tr>
+<tr>
+<td>Christmas 2027 / NY 2028</td>
+<td>Fri 24 Dec 2027 – Tue 4 Jan 2028</td>
+<td>~5</td>
+</tr>
+<tr>
+<td>Easter 2028</td>
+<td>Mon 17 Apr – Fri 21 Apr 2028</td>
+<td>5</td>
+</tr>
+</tbody>
+</table>
+<p>Closures are unpaid. If Cass needs to take additional days for illness, personal reasons, or institutional dates, those will be handled on a case-by-case basis and rescheduled where possible within the same period.</p>
+<h2 id="assessment-and-reporting">Assessment and reporting</h2>
+<p>Each six-month period concludes with a <strong>technical report jointly produced by Fleury Studio and Tate</strong>, drafted by Simon Fleury with contributions and sign-off from Jacqueline Moon at Tate, and incorporating Cass's own reflection on the period. Where a second placement is running, the relevant supervisor contributes a short feedback note at the same assessment point. The four reports fall at the end of each period (around December 2026, June 2027, December 2027, and June 2028) and form part of the formal record submitted to QEST.</p>
+<p>We would ask for a few lines of feedback from Tate at each assessment point — nothing onerous — as it forms part of the joint document.</p>
+<h2 id="open-items">Open items</h2>
+<p>A small number of items remain open and will be tightened in the next revision:</p>
+<ol>
+<li><strong>Second placement confirmation.</strong> An archive, library, or other conservation studio is being explored as the second institutional placement. Confirmation is being pursued and will be folded into the next revision.</li>
+<li><strong>Tate input.</strong> Where this plan invites Jacqui's and Ioannis's shaping of period-by-period contributions, those notes will be folded back into the next version once received.</li>
+<li><strong>Rotation pattern.</strong> The monthly rotation pattern (consecutive day blocks at Tate) will be confirmed with all parties before 1 July 2026.</li>
+</ol>
+<hr />
+<p><em>Prepared by Simon Fleury, simonfleury.studio. Comments and questions warmly welcomed.</em></p>
+
+<footer>
+  Questions or anything that needs changing — email Simon at <a href="mailto:sfleury@simonfleury.studio">sfleury@simonfleury.studio</a>.<br>
+  Page last refreshed 28 May 2026.
+</footer>
+
+</body>
+</html>
