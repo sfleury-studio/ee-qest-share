@@ -8,7 +8,7 @@ X-WR-CALDESC:Cass Power's QEST apprenticeship schedule\, 2026–2028.
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
 UID:2172f9c8f39a371f@qest.simonfleury.studio
-DTSTAMP:20260529T103911Z
+DTSTAMP:20260529T132516Z
 DTSTART;VALUE=DATE:20260706
 DTEND;VALUE=DATE:20260707
 SUMMARY:QEST — Fleury Studio: Studio day — first scheduled placement of
@@ -17,6 +17,114 @@ DESCRIPTION:Focus: Studio day — first scheduled placement of the programm
  e\nSupervisor: Simon Fleury\nStatus: Planned\nSource: 2026-07-06 — Cass 
  — Fleury Studio.md
 LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:66ffb3d70f1952b7@qest.simonfleury.studio
+DTSTAMP:20260529T132516Z
+DTSTART;VALUE=DATE:20260715
+DTEND;VALUE=DATE:20260716
+SUMMARY:QEST — Closed: Wednesday block — Cass not scheduled
+DESCRIPTION:Focus: Wednesday block — Cass not scheduled\nStatus: Planned\
+ nSource: 2026-07-15 — Closure — Wednesday block.md
+LOCATION:
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:6b5bd199c385409e@qest.simonfleury.studio
+DTSTAMP:20260529T132516Z
+DTSTART;VALUE=DATE:20260722
+DTEND;VALUE=DATE:20260723
+SUMMARY:QEST — Closed: Wednesday block — Cass not scheduled
+DESCRIPTION:Focus: Wednesday block — Cass not scheduled\nStatus: Planned\
+ nSource: 2026-07-22 — Closure — Wednesday block.md
+LOCATION:
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:86b2cc7086bf673c@qest.simonfleury.studio
+DTSTAMP:20260529T132516Z
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+SUMMARY:QEST — Closed: Wednesday block — Cass not scheduled
+DESCRIPTION:Focus: Wednesday block — Cass not scheduled\nStatus: Planned\
+ nSource: 2026-07-29 — Closure — Wednesday block.md
+LOCATION:
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e9b93c14bfd6dc63@qest.simonfleury.studio
+DTSTAMP:20260529T132516Z
+DTSTART;VALUE=DATE:20260801
+DTEND;VALUE=DATE:20260901
+SUMMARY:QEST — Closed: August closure
+DESCRIPTION:Focus: August closure\nStatus: Planned\nSource: 2026-08-01 — 
+ Closure — August.md
+LOCATION:
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:823fd3fd28db4cae@qest.simonfleury.studio
+DTSTAMP:20260529T132516Z
+DTSTART;VALUE=DATE:20261224
+DTEND;VALUE=DATE:20270105
+SUMMARY:QEST — Closed: Christmas / New Year closure
+DESCRIPTION:Focus: Christmas / New Year closure\nStatus: Planned\nSource: 2
+ 026-12-24 — Closure — Christmas and New Year.md
+LOCATION:
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b6e09097bd3c3742@qest.simonfleury.studio
+DTSTAMP:20260529T132516Z
+DTSTART;VALUE=DATE:20270329
+DTEND;VALUE=DATE:20270403
+SUMMARY:QEST — Closed: Easter closure
+DESCRIPTION:Focus: Easter closure\nStatus: Planned\nSource: 2027-03-29 — 
+ Closure — Easter.md
+LOCATION:
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b26c2bc6ac4668b0@qest.simonfleury.studio
+DTSTAMP:20260529T132516Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270901
+SUMMARY:QEST — Closed: August closure
+DESCRIPTION:Focus: August closure\nStatus: Planned\nSource: 2027-08-01 — 
+ Closure — August.md
+LOCATION:
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f4ac69e4c3291aaa@qest.simonfleury.studio
+DTSTAMP:20260529T132516Z
+DTSTART;VALUE=DATE:20271224
+DTEND;VALUE=DATE:20280105
+SUMMARY:QEST — Closed: Christmas / New Year closure
+DESCRIPTION:Focus: Christmas / New Year closure\nStatus: Planned\nSource: 2
+ 027-12-24 — Closure — Christmas and New Year.md
+LOCATION:
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1bf70119ee52bdb9@qest.simonfleury.studio
+DTSTAMP:20260529T132516Z
+DTSTART;VALUE=DATE:20280417
+DTEND;VALUE=DATE:20280422
+SUMMARY:QEST — Closed: Easter closure
+DESCRIPTION:Focus: Easter closure\nStatus: Planned\nSource: 2028-04-17 — 
+ Closure — Easter.md
+LOCATION:
 STATUS:TENTATIVE
 TRANSP:OPAQUE
 END:VEVENT
