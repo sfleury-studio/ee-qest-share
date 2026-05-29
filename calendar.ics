@@ -7,58 +7,140 @@ X-WR-CALNAME:QEST Apprenticeship — Cass Power
 X-WR-CALDESC:Cass Power's QEST apprenticeship schedule\, 2026–2028.
 X-WR-TIMEZONE:Europe/London
 BEGIN:VEVENT
-UID:2172f9c8f39a371f@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
-DTSTART;VALUE=DATE:20260706
-DTEND;VALUE=DATE:20260707
-SUMMARY:QEST — Fleury Studio: Studio day — first scheduled placement of
-  the programme
-DESCRIPTION:Focus: Studio day — first scheduled placement of the programm
- e\nSupervisor: Simon Fleury\nStatus: Planned\nSource: 2026-07-06 — Cass 
- — Fleury Studio.md
+UID:46f30b067a1d8e4e@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260701
+DTEND;VALUE=DATE:20260702
+SUMMARY:QEST — Fleury Studio: Kickoff Day — programme begins
+DESCRIPTION:Focus: Kickoff Day — programme begins\nSupervisor: Simon Fleu
+ ry\nStatus: Planned\nSource: 2026-07-01 — Cass — Fleury Studio.md
 LOCATION:Fleury Studio
 STATUS:TENTATIVE
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:66ffb3d70f1952b7@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
+UID:3608a2b2dd476f0e@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260709
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-07-08 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:81600b7ae3455abd@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-07-09 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:023cfe1b13c29acd@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260710
+DTEND;VALUE=DATE:20260711
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-07-10 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3c7783b6fb8aa72a@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
 DTSTART;VALUE=DATE:20260715
 DTEND;VALUE=DATE:20260716
-SUMMARY:QEST — Closed: Wednesday block — Cass not scheduled
-DESCRIPTION:Focus: Wednesday block — Cass not scheduled\nStatus: Planned\
- nSource: 2026-07-15 — Closure — Wednesday block.md
-LOCATION:
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-07-15 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
 STATUS:TENTATIVE
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:6b5bd199c385409e@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
+UID:71ecbf9a5e9e8508@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260716
+DTEND;VALUE=DATE:20260717
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-07-16 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:3c45ebc459fdf2a8@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-07-17 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:30abd598a404f1ee@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
 DTSTART;VALUE=DATE:20260722
 DTEND;VALUE=DATE:20260723
-SUMMARY:QEST — Closed: Wednesday block — Cass not scheduled
-DESCRIPTION:Focus: Wednesday block — Cass not scheduled\nStatus: Planned\
- nSource: 2026-07-22 — Closure — Wednesday block.md
-LOCATION:
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-07-22 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
 STATUS:TENTATIVE
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
-UID:86b2cc7086bf673c@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
+UID:9247c1c3b1e1dd6d@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260723
+DTEND;VALUE=DATE:20260724
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-07-23 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:de520bdc21c05552@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260724
+DTEND;VALUE=DATE:20260725
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-07-24 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b3b8e48b0a410525@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
 DTSTART;VALUE=DATE:20260729
 DTEND;VALUE=DATE:20260730
-SUMMARY:QEST — Closed: Wednesday block — Cass not scheduled
-DESCRIPTION:Focus: Wednesday block — Cass not scheduled\nStatus: Planned\
- nSource: 2026-07-29 — Closure — Wednesday block.md
-LOCATION:
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-07-29 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
 STATUS:TENTATIVE
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:e9b93c14bfd6dc63@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
+DTSTAMP:20260529T133807Z
 DTSTART;VALUE=DATE:20260801
 DTEND;VALUE=DATE:20260901
 SUMMARY:QEST — Closed: August closure
@@ -69,8 +151,488 @@ STATUS:TENTATIVE
 TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
+UID:bd18cfbecb8339b7@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260902
+DTEND;VALUE=DATE:20260903
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-09-02 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d33b19d9586b9974@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-09-03 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7c20fc52d91aefc5@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-09-04 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:870bf63218fcc840@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260909
+DTEND;VALUE=DATE:20260910
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-09-09 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c7774f467212449f@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-09-10 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:7c6204115cd7d0f9@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-09-11 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:0cf5b89b9613373c@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260916
+DTEND;VALUE=DATE:20260917
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-09-16 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:f0c584d23257f555@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-09-17 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:679e7d4db05086f5@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-09-18 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:4071d8fdc0db1479@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20260923
+DTEND;VALUE=DATE:20260924
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-09-23 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c3cf9a63388ab9e2@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-10-07 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2c7ce220abbe1ead@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-10-08 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2892d519a64be6ce@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261009
+DTEND;VALUE=DATE:20261010
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-10-09 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:acb1a5f8fad1db8a@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261014
+DTEND;VALUE=DATE:20261015
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-10-14 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:834ced761c986433@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-10-15 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c6490e2496a7c87f@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-10-16 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b5581474699c536f@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-10-21 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d0a6a16844f1a911@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-10-22 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:99c9e26e7eb7b2cb@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-10-23 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e7297fc3773859e9@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-10-28 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1c8b26f1142b33c1@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-11-04 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c880c66a62012b36@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-11-05 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:81bf73194d867229@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-11-06 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:26bedc15b2f2dd31@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-11-11 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:e547b7aba313daea@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-11-12 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:1010f53ba561be4c@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-11-13 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:c14d0e9f4176b1c4@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-11-18 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2f2602676aafe365@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-11-19 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:91ad0424df16f795@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-11-20 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:2a99c26c7cd0b85f@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-11-25 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:eea61c35a0a43b95@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261203
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-12-02 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:8eafd292c6031371@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-12-03 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d7a275382033c241@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261204
+DTEND;VALUE=DATE:20261205
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-12-04 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:59d3cf3806873535@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261209
+DTEND;VALUE=DATE:20261210
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-12-09 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:b0633ae13ed6a01f@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-12-10 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:063b13c28bada139@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-12-11 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:fe53287f66a315e8@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261216
+DTEND;VALUE=DATE:20261217
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-12-16 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:d88bbfe4abca63a5@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-12-17 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ab5e4010b060ad9f@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261218
+DTEND;VALUE=DATE:20261219
+SUMMARY:QEST — Tate: Tate placement
+DESCRIPTION:Focus: Tate placement\nSupervisor: Jacquie Moon\nStatus: Planne
+ d\nSource: 2026-12-18 — Cass — Tate.md
+LOCATION:Tate
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
+UID:ea6e6e7757f8204d@qest.simonfleury.studio
+DTSTAMP:20260529T133807Z
+DTSTART;VALUE=DATE:20261223
+DTEND;VALUE=DATE:20261224
+SUMMARY:QEST — Fleury Studio: Studio day
+DESCRIPTION:Focus: Studio day\nSupervisor: Simon Fleury\nStatus: Planned\nS
+ ource: 2026-12-23 — Cass — Fleury Studio.md
+LOCATION:Fleury Studio
+STATUS:TENTATIVE
+TRANSP:OPAQUE
+END:VEVENT
+BEGIN:VEVENT
 UID:823fd3fd28db4cae@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
+DTSTAMP:20260529T133807Z
 DTSTART;VALUE=DATE:20261224
 DTEND;VALUE=DATE:20270105
 SUMMARY:QEST — Closed: Christmas / New Year closure
@@ -82,7 +644,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:b6e09097bd3c3742@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
+DTSTAMP:20260529T133807Z
 DTSTART;VALUE=DATE:20270329
 DTEND;VALUE=DATE:20270403
 SUMMARY:QEST — Closed: Easter closure
@@ -94,7 +656,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:b26c2bc6ac4668b0@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
+DTSTAMP:20260529T133807Z
 DTSTART;VALUE=DATE:20270801
 DTEND;VALUE=DATE:20270901
 SUMMARY:QEST — Closed: August closure
@@ -106,7 +668,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:f4ac69e4c3291aaa@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
+DTSTAMP:20260529T133807Z
 DTSTART;VALUE=DATE:20271224
 DTEND;VALUE=DATE:20280105
 SUMMARY:QEST — Closed: Christmas / New Year closure
@@ -118,7 +680,7 @@ TRANSP:OPAQUE
 END:VEVENT
 BEGIN:VEVENT
 UID:1bf70119ee52bdb9@qest.simonfleury.studio
-DTSTAMP:20260529T132516Z
+DTSTAMP:20260529T133807Z
 DTSTART;VALUE=DATE:20280417
 DTEND;VALUE=DATE:20280422
 SUMMARY:QEST — Closed: Easter closure
