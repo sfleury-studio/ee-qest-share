@@ -138,13 +138,34 @@ tbody tr:last-child { border-bottom: none; }
 .panel dl { margin: 0; display: grid; grid-template-columns: minmax(140px, max-content) 1fr; column-gap: 1.5rem; row-gap: 0.75rem; }
 .panel dt { font-weight: 600; color: var(--ink); }
 .panel dd { margin: 0; color: var(--ink); }
-details { margin: 1rem 0 1.5rem; }
+details { margin: 0; border-top: 1px solid var(--rule); }
 details summary {
   cursor: pointer;
-  font-weight: 500;
-  color: var(--link);
-  padding: 0.4rem 0;
+  font-weight: 600;
+  color: var(--ink);
+  padding: 0.75rem 0;
+  list-style: none;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
 }
+details summary::-webkit-details-marker { display: none; }
+details summary::before {
+  content: "+";
+  color: var(--link);
+  font-weight: 500;
+  width: 0.75rem;
+  flex: none;
+}
+details[open] summary::before { content: "–"; }
+details summary:hover { color: var(--link); }
+details summary .hint {
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+details > *:not(summary) { margin-left: 1.25rem; }
+details[open] { padding-bottom: 1rem; }
 .back {
   font-size: 0.9rem;
   margin-bottom: 1.5rem;
@@ -231,14 +252,10 @@ shifts. Maintained by Simon at Equivalent Experience CIC.</p>
   <h2>Monthly map</h2>
   <p class="muted small">How a typical month is shaped, and the period-by-period overview of the programme.</p>
   <h1 id="qest-apprenticeship-monthly-map">QEST Apprenticeship — Monthly Map</h1>
-<blockquote>
-<p>[!note] Re-planned onto the September window (19 August 2026)
-The worked example, the two-year overview, the closures list and the reporting boundaries below have been re-planned onto <strong>1 September 2026 – 31 August 2028</strong> (Year 1 = Sep 2026–Aug 2027, Year 2 = Sep 2027–Aug 2028). Reports now fall in the last working month of each period rather than in a closed August. See Schedule Change Log and 2026-07-23 — Email to Jacquie and Ioannis confirming September start.</p>
-<p>[!success] Tate has confirmed the default pattern through to December 2026 (18 Aug 2026)
-Jacquie Moon confirmed <strong>every Wednesday and Thursday for the early part of the month</strong>, which is precisely the "Default monthly shape" set out below, and gave dates to the end of the calendar year: <strong>Tate</strong> Sep 2/3, 9/10, 16/17 · Oct 7/8, 14/15, 21/22 · Nov 4/5, 11/12, 18/19 · Dec 2/3, 9/10, 16/17. All twenty-four already exist as day stubs. The default shape is therefore no longer a proposal for these four months, it is the agreed schedule. See Schedule Change Log and 2026-08-18 — Reply from Jacquie at Tate — autumn dates September to December.</p>
-</blockquote>
-<p>A working template for the 10-day month, sized to drop into the studio calendar. The programme runs <strong>1 September 2026 – 31 August 2028</strong>, in line with QEST's scheduling. Tate take the additional days at present, with a second placement (an archive, library, or other conservation studio) under discussion. Specific weekdays will firm up as Jacquie at Tate confirms her preferences, and as the second placement is settled.</p>
-<h2 id="the-arithmetic">The arithmetic</h2>
+<p>A working template for the 10-day month, sized to drop into the studio calendar. The programme runs <strong>1 September 2026 – 31 August 2028</strong>, in line with QEST's scheduling. Tate take the additional days at present, with a second placement (an archive, library, or other conservation studio) under discussion. Jacquie at Tate has confirmed the weekday pattern and specific dates through to December 2026; dates from January 2027 will be confirmed in the same way, and the shape may shift again once the second placement is settled.</p>
+<details>
+  <summary>The arithmetic <span class='hint'>days per month, per year, and across the programme</span></summary>
+
 <table>
 <thead>
 <tr>
@@ -270,7 +287,11 @@ Jacquie Moon confirmed <strong>every Wednesday and Thursday for the early part o
 </tbody>
 </table>
 <p>Working pattern is roughly ten days a month, with breaks built in (see Closures below). Seven-hour day, so 700 hours a year and 1,400 hours across the programme.</p>
-<h2 id="closures">Closures</h2>
+
+</details>
+<details>
+  <summary>Closures <span class='hint'>August, Christmas and New Year, Easter</span></summary>
+
 <p>Three programme closures each year, mirroring conventional studio and institutional rhythm.</p>
 <table>
 <thead>
@@ -309,7 +330,11 @@ Jacquie Moon confirmed <strong>every Wednesday and Thursday for the early part o
 </ul>
 <p>August 2026 is not listed: it falls entirely before the 1 September start and is no longer a programme closure.</p>
 <p>Closures align with Tate's quieter periods and with conventional UK studio practice. They also give Cass real rest at the points in the year people naturally want it.</p>
-<h2 id="reporting">Reporting</h2>
+
+</details>
+<details>
+  <summary>Reporting <span class='hint'>the four six-monthly technical reports</span></summary>
+
 <p>Each six-month period concludes with a <strong>technical report jointly produced by Fleury Studio and Tate</strong> — drafted by Simon with contributions and sign-off from Jacquie Moon, and Cass's own reflection forming part of the record. Four reports across the programme:</p>
 <ul>
 <li>End of Period 1 (Sep 2026 – Feb 2027) — February 2027</li>
@@ -319,7 +344,11 @@ Jacquie Moon confirmed <strong>every Wednesday and Thursday for the early part o
 </ul>
 <p>Periods 2 and 4 close on an August closure, so their reports are drafted and signed off in July, the last working month, rather than during a shutdown. The period boundaries themselves remain the six-month points.</p>
 <p>Where a second placement is running, the relevant supervisor contributes a short feedback note at each assessment point. QEST receives the reports as part of the funding record.</p>
-<h2 id="default-monthly-shape">Default monthly shape</h2>
+
+</details>
+<details>
+  <summary>Default monthly shape <span class='hint'>how a typical month is laid out</span></summary>
+
 <p>Three weeks of two consecutive days at Tate on <strong>Wednesday and Thursday</strong>, with studio days falling on the <strong>Tuesday</strong> of each Tate week (paired immediately before the Tate block) and on the <strong>Monday</strong> of each non-Tate week. Where the month yields more than four studio days under this rule, the earliest Tuesday is dropped to hold the cap at four. This keeps Jacquie's preference for consecutive Tate blocks, gives Cass a steady thread of supervision with Simon, and leaves Friday clear across the week.</p>
 <table>
 <thead>
@@ -377,7 +406,11 @@ Jacquie Moon confirmed <strong>every Wednesday and Thursday for the early part o
 </table>
 <p>Where a second placement runs, it substitutes into one of the Tate weeks (Wednesday and Thursday become the second-placement days).</p>
 <p>The week-1 Tuesday is included only when both it and the week-5 Monday land in the same calendar month and dropping it would otherwise push the count past four. In a four-week month, the extra Monday simply isn't there. In months containing a closure week (December, January, April), one of the working weeks is replaced by the closure.</p>
-<h2 id="worked-example-september-2026">Worked example: September 2026</h2>
+
+</details>
+<details>
+  <summary>Worked example: September 2026 <span class='hint'>the opening month, day by day</span></summary>
+
 <p>The programme opens on <strong>Tuesday 1 September 2026</strong> with a studio day, the first Tate block following immediately on the Wednesday and Thursday. These are confirmed dates, not a template: Jacquie confirmed the Tate pattern to the end of the calendar year on 18 August 2026, and the studio days were set on 19 August. All ten exist as day stubs in this folder.</p>
 <table>
 <thead>
@@ -434,10 +467,11 @@ Jacquie Moon confirmed <strong>every Wednesday and Thursday for the early part o
 </tbody>
 </table>
 <p>Four studio days (Tue 1, Mon 7, Tue 15, Mon 21) and six Tate days (2/3, 9/10, 16/17), ten in total. The studio day in week 2 sits on the Monday rather than the Tuesday, a minor departure from the default shape below, agreed to suit the opening month. Cass begins with Simon in the studio so the programme is framed before the first Tate block.</p>
+
+</details>
 <details>
-  <summary>Two-year overview — show the full period-by-period table</summary>
-  <h2 id="two-year-overview">Two-year overview</h2>
-  
+  <summary>Two-year overview <span class='hint'>the full period-by-period table</span></summary>
+
 <h3 id="year-1-september-2026-to-august-2027">Year 1 — September 2026 to August 2027</h3>
 <table>
 <thead>
